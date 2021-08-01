@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#24272E;
+}
+
+#title{
+    text-align: center;
+    background-color: white;
+    height:75px;
+    padding:15px;
+    font-family: Asap;
+    font-weight: 600;
+}
+
+#result{
+    font-family:Asap;
+    font-weight: bold;
+    text-align:center;
+    color:white;
+    margin-top:50px;
+}
+
+.choice{
+    display:inline-block;
+    max-width: 100%;  
+    height: auto; 
+    margin:30px;
+    border:5px solid white;
+    border-radius:50%;
+    padding:15px;
+}
+
+.choices{
+    text-align: center;
+    margin-top:30px;
+}
+
+#action-message{
+    color:white;
+    text-align: center;
+    font-family:Asap;
+    font-size:25px;
+    margin-top:15px;
+}
+
+.choice{
+    cursor:pointer;
+    transition:background 0.25s;
+}
+
+.choice:hover{
+    background:#3e4e7a;
+}
+
+.scoreboard{
+    text-align: center;
+    color:white;
+    border:3px solid white;
+    width:200px;
+    height:80px;
+    margin:auto;
+    padding:10px;
+    margin-top:55px;
+    font-size:50px;
+    position:relative;
+    font-family: Asap,sans-serif;
+}
+
+.label{
+    background:red;
+    top:25px;
+    width:60px;
+    font-size:20px;
+}
+
+#player-badge{
+    position:absolute;
+    left:-32px;
+}
+
+#CPU-badge{
+    position:absolute;
+    right:-32px;
+}
+
